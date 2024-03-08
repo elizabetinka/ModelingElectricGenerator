@@ -46,7 +46,7 @@ function showMessage(F,w,R) {
     let massx = [];
     let massy = [];
     let massy2 = [];
-    for (let i =0; i<2; i +=0.01 ){
+    for (let i =0; i<2; i +=0.03 ){
         massx.push(i);
         let e = F*w*Math.sin(w*i);
         let I =  e/R;

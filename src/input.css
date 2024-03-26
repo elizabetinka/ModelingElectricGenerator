@@ -61,7 +61,7 @@
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-     background-color:  #ea3a95; 
+     background-color:  rgb(55 48 163 / 100%); 
     border-color: white;
     /*
     background-image: linear-gradient(
@@ -87,6 +87,6 @@
   }
 
  .text {
-    border:2px solid #ea3a95b1;
-    background-color:  #f5a2cd8d;
+    border:2px solid rgb(55 48 163 / 100%);
+    background-color:  rgba(190, 187, 234, 0.648);
   }

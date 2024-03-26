@@ -46,12 +46,14 @@ function showMessage(F,w,R) {
     let massx = [];
     let massy = [];
     let massy2 = [];
-    for (let i =0; i<2; i +=0.03 ){
+    let i =0 ;
+    while (frec*i<1 ){
         massx.push(i);
         let e = F*w*Math.sin(w*i);
         let I =  e/R;
         massy.push(e);
         massy2.push(I);
+        i+=0.00001;
     }
 
     var result ={
@@ -71,7 +73,7 @@ function showMessage(F,w,R) {
         /*width: 1600,
         height: 300,*/
         xaxis: {
-            title: 'сек',
+            title: 'с',
             rangemode: 'tozero',
         },
         yaxis: {
@@ -95,7 +97,7 @@ function showMessage(F,w,R) {
         /*width: 1600,
         height: 300,*/
         xaxis: {
-            title: 'сек',
+            title: 'с',
             rangemode: 'tozero',
         },
         yaxis: {
